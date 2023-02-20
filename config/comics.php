@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'fumetti'=>  
+    'books'=>  
     [
         [
 
@@ -217,105 +217,51 @@ return [
         ]
         ],
     
-    'menu' => [
-        [
-            "label"=> 'Characters',
-            "url"=> '#',
-        ],
-        [
-
-            "label"=> 'Comics',
-            "url"=> '#',
-        ],
-        [
-
-            "label"=> 'Movies',
-            "url"=> '#',
-        ],
-        [
-
-            "label"=> 'Tv',
-            "url"=> '#',
-        ],
-        [
-
-            "label"=> 'Games',
-            "url"=> '#',
-        ],
-        [
-
-            "label"=> 'Collectibles',
-            "url"=> '#',
-        ],
-        [
-
-            "label"=> 'Videos',
-            "url"=> '#',
-        ],
-        [
-
-            "label"=> 'Fans',
-            "url"=> '#',
-        ],
-        [
-
-            "label"=> 'News',
-            "url"=> '#',
-        ],
-        [
-
-            "label"=> 'Shop',
-            "url"=> '#',
-        ]
-        ],
-        'icon'=> [
+        'footer' => [
             [
-
-                "img" => 'resources/images/buy-comics-digital-comics.png',
-                "description" => 'DIGITAL COMICS'
+                "label" => "DC COMICS",
+                "sublabel" => [
+                    "Characters",
+                    "Comics",
+                    "Movies",
+                    "TV",
+                    "Games",
+                    "Videos",
+                    "News"
+                ]
             ],
             [
-
-                "img" => 'resources/images/buy-comics-merchandise.png',
-                "description" => 'DC MERCHANDISE'
+                "label" => "SHOP",
+                "sublabel" => [
+                    "Sop DC",
+                    "Shop DC Collectibles"
+                ]
             ],
             [
-
-                "img" => 'resources/images/buy-comics-subscriptions.png',
-                "description" => 'SUBSCRIPTION'
+                "label" => "DC",
+                "sublabel" => [
+                    "Terms Of Use",
+                    "Privacy policy(New)",
+                    "Ad Choices",
+                    "Advertising",
+                    "Jobs",
+                    "Subscription",
+                    "Talent Workshops",
+                    "CPSC Certificates",
+                    "Ratings",
+                    "Shop Help",
+                    "Contact Us"
+                ]
             ],
             [
-
-                "img" => 'resources/images/buy-comics-shop-locator.png',
-                "description" => 'COMIC SHOP LOCATOR'
-            ],
-            [
-
-                "img" => 'resources/images/buy-dc-power-visa.svg',
-                "description" => 'DC POWER VISA'
-            ],
-        ],
-        'social'=> [
-            [
-                
-                "logo"=> "resources/images/footer-facebook.png",
-            ],
-            [
-                
-                "logo"=> "resources/images/footer-periscope.png",
-            ],
-            [
-                
-                "logo"=> "resources/images/footer-pinterest.png",
-            ],
-            [
-                
-                "logo"=> "resources/images/footer-twitter.png",
-            ],
-
-            [
-                
-                "logo"=> "resources/images/footer-youtube.png",
+                "label" => "SITES",
+                "sublabel" => [
+                    "DC",
+                    "MAD Magazine",
+                    "DC Kids",
+                    "DC Universe",
+                    "DC Power Visa"
+                ]
             ]
         ]
-];
+    ];
