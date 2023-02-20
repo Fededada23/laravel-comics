@@ -7,13 +7,20 @@
 
     <title>DC comics</title>
 
-    <!-- Styles -->
+
     @vite('resources/js/app.js')
 
 </head>
 
 <body>
     @include('partials.header')
+    <div class="container">
+        <div class="row">
+            <div class="col">
+            </div>
+        </div>
+    </div>
+    @include('partials.jumbotron')
     <div class="container">
         <div class="row">
             <div class="col">
