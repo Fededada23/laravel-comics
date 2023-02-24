@@ -12,18 +12,9 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/comics/{slug}', [ComicController::class, 'detailComics'])->name('detail-comics');
 
-Route::get('/', function () {
-    return view('home');
-});
+Route::get('/', [ComicController::class, 'index'])->name('homepage');
 
-Route::get('/comics', function () {
-    $books = config('comics.books');
-    return view('comics', compact('books'));
-})->name('comics');
 
-Route::get('/comics/{param}', function ($param) {
-    $books = config('comics.books');
-    $single_book = $books[$param];
-    return view('single_comic', compact('single_book'));
-})->name('single-comic');
+
